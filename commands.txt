@@ -1,0 +1,3 @@
+ssh -p 2001 root@localhost 
+ps aux| grep remoting.jar
+remoting.jar is created by master
