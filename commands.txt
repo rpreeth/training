@@ -2,3 +2,4 @@ ssh -p 2001 root@localhost
 ps aux| grep remoting.jar
 remoting.jar is created by master
 https://jenkins.io/doc/book/pipeline/ ---> url where pipeline jenkins best references
+https://docs.huihoo.com/jenkins/enterprise/14/user-guide-docs/ha-sect-tutorial.html ---> jenkins plugins references
