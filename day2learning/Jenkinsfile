@@ -10,12 +10,12 @@ pipeline {
         }
         stage('Build') {
             steps {
-                'sh 'python --version''
+                sh 'python --version'
             }
         }
         stage('script execution') {
             steps {
-               'sh 'python ./day2learning/script.py''
+               sh 'python ./day2learning/script.py'
             }
         }
         stage('Deploy') {
