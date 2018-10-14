@@ -9,7 +9,7 @@ pipeline {
         }
         stage('script execution') {
             steps {
-               'sh 'python ./day2training/script.py''
+               'sh 'python ./day2learning/script.py''
             }
         }
         stage('Deploy') {
