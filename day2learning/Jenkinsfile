@@ -7,9 +7,9 @@ pipeline {
                 'sh 'python --version''
             }
         }
-        stage('Test') {
+        stage('script execution') {
             steps {
-                
+               'sh 'python ./day2training/script.py''
             }
         }
         stage('Deploy') {
