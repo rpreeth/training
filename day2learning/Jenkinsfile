@@ -2,6 +2,12 @@ pipeline {
   agent { docker { image 'python' } }
 
     stages {
+      
+        stage ('Checkout') {
+			       steps {
+				           git 'https://github.com/rpreeth/training.git'
+		             	}
+        }
         stage('Build') {
             steps {
                 'sh 'python --version''
